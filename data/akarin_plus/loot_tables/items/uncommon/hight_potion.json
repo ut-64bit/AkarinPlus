@@ -1,0 +1,55 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+                "text": "ﾊｲポーション",
+                "color": "pink",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+            }
+        },
+        {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+                [
+                    {
+                        "text": "Rank: ",
+                        "color": "white",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                    },
+                    {
+                        "text": "Uncommon+",
+                        "color": "yellow",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                    }
+                ],
+                {
+                    "text": "\\nスプラッシュ化不可",
+                    "color": "gray"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_potion",
+            "id": "minecraft:water"
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{AkarinPlus:{Type:hight_potion},CustomPotionColor:16727149,HideFlags:2,CustomPotionEffects:[{Id:6,Amplifier:0b,Duration:5},{Id:10,Amplifier:7b,Duration:200}]}"
+        }
+    ]
+}

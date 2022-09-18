@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/lunatic"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "name": "akarin_plus:amulets"
+                }
+            ]
+        }
+    ]
+}

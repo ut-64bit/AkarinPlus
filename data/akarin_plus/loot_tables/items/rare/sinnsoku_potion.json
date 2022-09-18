@@ -1,0 +1,55 @@
+{
+    "functions": [
+        {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+                "text": "Re:神速ポーション",
+                "color": "aqua",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+            }
+        },
+        {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+                [
+                    {
+                        "text": "Rank: ",
+                        "color": "white",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                    },
+                    {
+                        "text": "Rare+",
+                        "color": "aqua",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                    }
+                ],
+                {
+                    "text": "\\nスプラッシュ化不可",
+                    "color": "gray"
+                }
+            ]
+        },
+        {
+            "function": "minecraft:set_potion",
+            "id": "minecraft:water"
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{AkarinPlus:{Type:sinnsoku_potion},CustomPotionColor:65535,CustomPotionEffects:[{Id:1,Amplifier:127b,Duration:600},{Id:8,Amplifier:15b,Duration:600},{Id:29,Amplifier:7b,Duration:600},{Id:30,Amplifier:7b,Duration:600}]}"
+        }
+    ]
+}

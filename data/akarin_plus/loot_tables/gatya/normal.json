@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 16,
+                    "name": "akarin_plus:par/epic/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 32,
+                    "name": "akarin_plus:par/epic/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 112,
+                    "name": "akarin_plus:par/epic/0"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 128,
+                    "name": "akarin_plus:par/rare/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 256,
+                    "name": "akarin_plus:par/rare/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 896,
+                    "name": "akarin_plus:par/rare/0"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 512,
+                    "name": "akarin_plus:par/uncommon/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1024,
+                    "name": "akarin_plus:par/uncommon/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3584,
+                    "name": "akarin_plus:par/uncommon/0"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1024,
+                    "name": "akarin_plus:par/common/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2048,
+                    "name": "akarin_plus:par/common/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 7168,
+                    "name": "akarin_plus:par/common/0"
+                }
+            ]
+        }
+    ]
+}

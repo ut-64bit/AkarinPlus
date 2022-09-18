@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:par/legend/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "name": "akarin_plus:par/legend/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 7,
+                    "name": "akarin_plus:par/legend/0"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 16,
+                    "name": "akarin_plus:par/epic/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 32,
+                    "name": "akarin_plus:par/epic/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 112,
+                    "name": "akarin_plus:par/epic/0"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 128,
+                    "name": "akarin_plus:par/rare/2"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 256,
+                    "name": "akarin_plus:par/rare/1"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 896,
+                    "name": "akarin_plus:par/rare/0"
+                }
+            ]
+        }
+    ]
+}

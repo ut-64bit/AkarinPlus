@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " N ",
+        " n "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "N": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:structure_void",
+        "count": 1
+    }
+}

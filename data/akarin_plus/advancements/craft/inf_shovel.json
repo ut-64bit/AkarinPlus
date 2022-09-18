@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "akarin_plus:inf_shovel"
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:craft/inf_shovel",
+        "loot": [
+            "akarin_plus:craft/inf_shovel"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{AkarinPlus:{Type:inf_light_food}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:item/inf_light_food",
+        "loot": [
+            "akarin_plus:items/common/inf_light_food"
+        ]
+    }
+}

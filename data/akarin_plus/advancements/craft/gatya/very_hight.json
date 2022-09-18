@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "akarin_plus:craft/gatya/very_hight"
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:craft/gatya/very_hight",
+        "loot": [
+            "akarin_plus:gatya/very_hight"
+        ]
+    }
+}

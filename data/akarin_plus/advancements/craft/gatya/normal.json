@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "akarin_plus:craft/gatya/normal"
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:craft/gatya/normal",
+        "loot": [
+            "akarin_plus:gatya/normal"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "akarin_plus:craft/gatya/rank/legend"
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:craft/gatya/rank/legend",
+        "loot": [
+            "akarin_plus:gatya/rank/legend"
+        ]
+    }
+}

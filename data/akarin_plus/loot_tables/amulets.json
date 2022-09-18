@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/amulets/defence_amulet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/amulets/health_amulet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "akarin_plus:items/legend/amulets/luck_amulet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "akarin_plus:items/legend/amulets/speed_amulet"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "used_totem": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "nbt": "{Type:utotem}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "akarin_plus:return_totem"
+        ],
+        "function": "akarin_plus:item/return_totem"
+    }
+}

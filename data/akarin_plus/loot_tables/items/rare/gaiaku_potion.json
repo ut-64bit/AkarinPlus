@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "究極害悪ポーション",
+                                "color": "dark_red",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:gaiaku_potion},CustomPotionColor:0,CustomPotionEffects:[{Id:2,Amplifier:9b,Duration:200},{Id:4,Amplifier:9b,Duration:200},{Id:7,Amplifier:9b,Duration:200},{Id:9,Amplifier:9b,Duration:200},{Id:15,Amplifier:9b,Duration:200},{Id:17,Amplifier:9b,Duration:200},{Id:18,Amplifier:9b,Duration:200},{Id:19,Amplifier:9b,Duration:200},{Id:20,Amplifier:9b,Duration:200},{Id:24,Amplifier:9b,Duration:200},{Id:25,Amplifier:9b,Duration:200},{Id:27,Amplifier:9b,Duration:200},{Id:31,Amplifier:9b,Duration:200},{Id:33,Amplifier:9b,Duration:200}]}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Rare+",
+                                        "color": "aqua",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                {
+                                    "text": "\\n残留化不可",
+                                    "color": "gray"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:water"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

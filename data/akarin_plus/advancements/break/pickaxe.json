@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "nbt": "{UT:{Type:inf_pickaxe}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:break/pickaxe"
+    }
+}
