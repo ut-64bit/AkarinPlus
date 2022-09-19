@@ -5,7 +5,7 @@
             "conditions": {
                 "durability": 0,
                 "item": {
-                    "nbt": "{UT:{Type:inf_shovel}}"
+                    "nbt": "{AkarinPlus:{Type:inf_shovel}}"
                 }
             }
         }

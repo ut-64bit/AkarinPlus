@@ -1,0 +1,85 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Rare",
+                                        "color": "aqua",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                ""
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "",
+                                    "amount": 2,
+                                    "operation": "addition",
+                                    "id": "7bd4b407-fdc6-4e95-8264-f2c26bc15941",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:deffence_charm},Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "防御のチャーム",
+                                "color": "aqua",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

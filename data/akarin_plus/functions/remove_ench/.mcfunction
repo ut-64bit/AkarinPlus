@@ -1,5 +1,5 @@
 #> akarin_plus:remove_ench/
-# @within function akarin_plus:tick
+# @within function akarin_plus:tick/
 
 data merge storage _index.d {Item:{}}
 data modify storage _index.d Item.Enchantments set from entity @s Item.tag.Enchantments

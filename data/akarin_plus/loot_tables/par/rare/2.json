@@ -2,7 +2,18 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": []
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/xp_ticket"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/hyper_heel_sheet"
+                }
+            ]
         }
     ]
 }

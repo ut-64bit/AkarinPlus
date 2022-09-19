@@ -8,6 +8,20 @@
                     "name": "minecraft:paper",
                     "functions": [
                         {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [

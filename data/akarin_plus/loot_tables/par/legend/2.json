@@ -12,6 +12,11 @@
                     "type": "loot_table",
                     "weight": 2,
                     "name": "akarin_plus:amulets"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/legacy"
                 }
             ]
         }

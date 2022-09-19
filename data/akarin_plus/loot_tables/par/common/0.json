@@ -12,6 +12,21 @@
                     "type": "minecraft:loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/common/free_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/common/prison_fire"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/common/knock_hammer"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/common/give_wing"
                 }
             ]
         }

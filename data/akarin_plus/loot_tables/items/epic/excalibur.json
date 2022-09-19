@@ -1,0 +1,116 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Epic++",
+                                        "color": "light_purple",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "聖剣エクスカリバーがあった村の",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "川一つ越えた先にある村で作られた模造品。",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "強引に研いだおかげである程度聖剣に近づいたが",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "研ぎ過ぎたため使い捨てになってしまった",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "エクスキャリバー",
+                                "color": "gold",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:excalibur},HideFlags:1,Damage:300,RepairCost:65535,CustomModelData:12723}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:smite": 20,
+                                "sharpness": 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

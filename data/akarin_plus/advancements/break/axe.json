@@ -5,7 +5,7 @@
             "conditions": {
                 "durability": 0,
                 "item": {
-                    "nbt": "{UT:{Type:inf_axe}}"
+                    "nbt": "{AkarinPlus:{Type:inf_axe}}"
                 }
             }
         }

@@ -5,7 +5,13 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
+                    "weight": 5,
                     "name": "akarin_plus:items/legend/legend_gatya"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "akarin_plus:items/legend/ender_dragon_wing"
                 }
             ]
         }

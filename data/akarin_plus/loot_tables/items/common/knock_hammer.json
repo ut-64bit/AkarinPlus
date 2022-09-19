@@ -1,0 +1,98 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "",
+                                    "amount": 8,
+                                    "operation": "addition",
+                                    "id": "44ca3e4d-43b0-4e43-be6f-93755bb59c54",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "",
+                                    "amount": -3.2,
+                                    "operation": "addition",
+                                    "id": "39fc3d7e-c407-4931-8be0-70c1be313cd7",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:knock_hammer},HideFlags:1,RepairCost:65535,CustomModelData:12721}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Common",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "ノック・ハンマー",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

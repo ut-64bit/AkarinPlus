@@ -1,0 +1,82 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Common",
+                                        "color": "yellow",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "翼を与える。",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "翼",
+                                "color": "yellow",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:Wing}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

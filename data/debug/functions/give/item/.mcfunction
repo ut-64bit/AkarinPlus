@@ -8,9 +8,14 @@
     ## Common
         loot give @s loot akarin_plus:items/common/empty
         loot give @s loot akarin_plus:items/common/free_sword
+        loot give @s loot akarin_plus:items/common/prison_fire
+        loot give @s loot akarin_plus:items/common/knock_hammer
+        loot give @s loot akarin_plus:items/common/give_wing
 
     ## Common+
         loot give @s loot akarin_plus:items/common/cursed_pumpkin
+        loot give @s loot akarin_plus:items/common/impure_guide
+        loot give @s loot akarin_plus:items/common/insecticidal_curse
 
     ## Common++
         loot give @s loot akarin_plus:items/common/inf_light_food
@@ -29,12 +34,18 @@
 # Rare
     ## Rare
         loot give @s loot akarin_plus:items/rare/power_potion
+        loot give @s loot akarin_plus:items/rare/speed_charm
+        loot give @s loot akarin_plus:items/rare/attack_charm
+        loot give @s loot akarin_plus:items/rare/deffence_charm
 
     ## Rare+
         loot give @s loot akarin_plus:items/rare/gaiaku_potion
         loot give @s loot akarin_plus:items/rare/sinnsoku_potion
+        loot give @s loot akarin_plus:items/rare/potato_sword
 
     ## Rare++
+        loot give @s loot akarin_plus:items/rare/xp_ticket
+        loot give @s loot akarin_plus:items/rare/hyper_heel_sheet
 
 # Epic
     ## Epic
@@ -45,12 +56,16 @@
 
     ## Epic++
         loot give @s loot akarin_plus:items/epic/insanity/origin
+        loot give @s loot akarin_plus:items/epic/lunatic_replica
+        loot give @s loot akarin_plus:items/epic/excalibur
 
 # Legend
     ## Legend
         loot give @s loot akarin_plus:items/legend/legend_gatya
+        loot give @s loot akarin_plus:items/legend/ender_dragon_wing
 
     ## Legend+
+        loot give @s loot akarin_plus:items/legend/tall_bell
 
     ## Legend++
         loot give @s loot akarin_plus:items/legend/amulets/defence_amulet
@@ -58,6 +73,7 @@
         loot give @s loot akarin_plus:items/legend/amulets/luck_amulet
         loot give @s loot akarin_plus:items/legend/amulets/speed_amulet
         loot give @s loot akarin_plus:items/legend/lunatic
+        loot give @s loot akarin_plus:items/legend/legacy
 
 
 

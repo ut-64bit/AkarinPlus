@@ -12,6 +12,11 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/rare/sinnsoku_potion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/potato_sword"
                 }
             ]
         }

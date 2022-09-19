@@ -1,55 +1,81 @@
 {
-    "functions": [
+    "pools": [
         {
-            "function": "minecraft:set_name",
-            "entity": "this",
-            "name": {
-                "text": "ポーション",
-                "color": "pink",
-                "bold": false,
-                "italic": false,
-                "underlined": false,
-                "strikethrough": false,
-                "obfuscated": false
-            }
-        },
-        {
-            "function": "minecraft:set_lore",
-            "entity": "this",
-            "lore": [
-                [
-                    {
-                        "text": "Rank: ",
-                        "color": "white",
-                        "bold": false,
-                        "italic": false,
-                        "underlined": false,
-                        "strikethrough": false,
-                        "obfuscated": false
-                    },
-                    {
-                        "text": "Uncommon",
-                        "color": "yellow",
-                        "bold": false,
-                        "italic": false,
-                        "underlined": false,
-                        "strikethrough": false,
-                        "obfuscated": false
-                    }
-                ],
+            "rolls": 1,
+            "entries": [
                 {
-                    "text": "\\nスプラッシュ化不可",
-                    "color": "gray"
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "ポーション",
+                                "color": "pink",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Uncommon",
+                                        "color": "yellow",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "スプラッシュ化不可",
+                                    "color": "gray"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:water"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:potion},CustomPotionColor:16749784,HideFlags:2,CustomPotionEffects:[{Id:10,Amplifier:3b,Duration:100}]}"
+                        }
+                    ]
                 }
             ]
-        },
-        {
-            "function": "minecraft:set_potion",
-            "id": "minecraft:water"
-        },
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{AkarinPlus:{Type:potion},CustomPotionColor:16749784,HideFlags:2,CustomPotionEffects:[{Id:10,Amplifier:3b,Duration:100}]}"
         }
     ]
 }

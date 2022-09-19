@@ -7,6 +7,21 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/rare/power_potion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/speed_charm"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/attack_charm"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/deffence_charm"
                 }
             ]
         }

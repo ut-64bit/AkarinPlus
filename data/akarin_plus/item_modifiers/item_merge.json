@@ -7,7 +7,7 @@
 		},
 		"ops": [
 			{
-				"source": "Item",
+				"source": "_.Item",
 				"target": "{}",
 				"op": "merge"
 			}

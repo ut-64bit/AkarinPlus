@@ -1,0 +1,110 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Legacy",
+                                "color": "yellow",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Legend++",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": " ",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.max_health",
+                                    "name": "",
+                                    "amount": 50,
+                                    "operation": "addition",
+                                    "id": "0fe1cb37-6caf-46ec-bde3-ee2097a31437",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "",
+                                    "amount": 90,
+                                    "operation": "addition",
+                                    "id": "924f0da1-be59-4cb8-8414-2d4e80eb1fc8",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "",
+                                    "amount": 16,
+                                    "operation": "addition",
+                                    "id": "749895d2-8a04-410c-a518-8e52d073382a",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:legacy},CustomModelData:12721}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

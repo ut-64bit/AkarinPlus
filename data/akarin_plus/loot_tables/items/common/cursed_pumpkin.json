@@ -8,12 +8,26 @@
                     "name": "minecraft:carved_pumpkin",
                     "functions": [
                         {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:generic.armor",
                                     "name": "",
-                                    "amount": 10,
+                                    "amount": 6,
                                     "operation": "addition",
                                     "id": "2eecb746-6774-472c-9bed-3120f9f3626c",
                                     "slot": "head"
@@ -21,7 +35,7 @@
                                 {
                                     "attribute": "minecraft:generic.armor_toughness",
                                     "name": "",
-                                    "amount": 5,
+                                    "amount": 6,
                                     "operation": "addition",
                                     "id": "04d0281f-1f6f-4009-8c93-7c1ae568b62c",
                                     "slot": "head"
@@ -36,7 +50,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:CursedPumpkin},HideFlags:1,RepairCost:128}"
+                            "tag": "{AkarinPlus:{Type:CursedPumpkin},HideFlags:1,RepairCost:65535}"
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -62,8 +76,9 @@
                                         "obfuscated": false
                                     }
                                 ],
+                                "",
                                 {
-                                    "text": "\\nとっても呪われているかぼちゃ",
+                                    "text": "とっても呪われているかぼちゃ",
                                     "color": "white",
                                     "bold": false,
                                     "italic": false,

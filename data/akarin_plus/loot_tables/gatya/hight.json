@@ -5,11 +5,6 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "weight": 1,
-                    "name": "akarin_plus:par/legend/2"
-                },
-                {
-                    "type": "loot_table",
                     "weight": 2,
                     "name": "akarin_plus:par/legend/1"
                 },

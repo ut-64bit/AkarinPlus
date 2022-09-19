@@ -1,1 +1,131 @@
-{}
+{
+    "mcdutil.createDatapackTemplate.customTemplate": [
+        {
+            "label": "Item",
+            "picked": false,
+            "generates": [
+                {
+                    "type": "file",
+                    "rel": "data/akarin_plus/loot_tables/items/%Rank%/%namespace%.json",
+                    "content": [
+                        "{",
+                        "    \"pools\": [",
+                        "        {",
+                        "            \"rolls\": 1,",
+                        "            \"entries\": [",
+                        "                {",
+                        "                    \"type\": \"minecraft:item\",",
+                        "                    \"name\": \"minecraft:%VanilaItem%\",",
+                        "                    \"functions\": [",
+                        "                        {",
+                        "                            \"function\": \"minecraft:copy_nbt\",",
+                        "                            \"source\": {",
+                        "                                \"type\": \"minecraft:storage\",",
+                        "                                \"source\": \"akarin_plus:\"",
+                        "                            },",
+                        "                            \"ops\": [",
+                        "                                {",
+                        "                                    \"source\": \"_.Version\",",
+                        "                                    \"target\": \"AkarinPlus.ItemVer\",",
+                        "                                    \"op\": \"merge\"",
+                        "                                }",
+                        "                            ]",
+                        "                        },",
+                        "                        {",
+                        "                            \"function\": \"minecraft:set_lore\",",
+                        "                            \"entity\": \"this\",",
+                        "                            \"lore\": [",
+                        "                                [",
+                        "                                    {",
+                        "                                        \"text\": \"Rank: \",",
+                        "                                        \"color\": \"white\",",
+                        "                                        \"bold\": false,",
+                        "                                        \"italic\": false,",
+                        "                                        \"underlined\": false,",
+                        "                                        \"strikethrough\": false,",
+                        "                                        \"obfuscated\": false",
+                        "                                    },",
+                        "                                    {",
+                        "                                        \"text\": \"%ItemRank%\",",
+                        "                                        \"color\": \"%RankColor%\",",
+                        "                                        \"bold\": false,",
+                        "                                        \"italic\": false,",
+                        "                                        \"underlined\": false,",
+                        "                                        \"obfuscated\": false",
+                        "                                    }",
+                        "                                ],",
+                        "                                  \" \",",
+                        "                                {",
+                        "                                    \"text\": \"<Lore>\",",
+                        "                                    \"color\": \"white\",",
+                        "                                    \"bold\": false,",
+                        "                                    \"italic\": false,",
+                        "                                    \"underlined\": false,",
+                        "                                    \"strikethrough\": false,",
+                        "                                    \"obfuscated\": false",
+                        "                                }",
+                        "                            ]",
+                        "                        },",
+                        "                        {",
+                        "                            \"function\": \"minecraft:set_nbt\",",
+                        "                            \"tag\": \"{AkarinPlus:{Type:%namespace%}}\"",
+                        "                        },",
+                        "                        {",
+                        "                            \"function\": \"minecraft:set_name\",",
+                        "                            \"entity\": \"this\",",
+                        "                            \"name\": {",
+                        "                                \"text\": \"%ItemName%\",",
+                        "                                \"color\": \"%ItemColor%\",",
+                        "                                \"bold\": false,",
+                        "                                \"italic\": false,",
+                        "                                \"underlined\": false,",
+                        "                                \"strikethrough\": false,",
+                        "                                \"obfuscated\": false",
+                        "                            }",
+                        "                        }",
+                        "                    ]",
+                        "                }",
+                        "            ]",
+                        "        }",
+                        "    ]",
+                        "}"
+                    ]
+                }
+            ],
+            "customQuestion": [
+                {
+                    "question": "アイテムの表示名",
+                    "name": "ItemName"
+                },
+                {
+                    "question": "アイテムの表示色",
+                    "name": "ItemColor",
+                    "pattern": "(white|black|red|blue|green|aqua|yellow|light_purple)",
+                    "patternErrorMessage": "いずれかの色を入力してください"
+                },
+                {
+                    "question": "アイテムのランク",
+                    "name": "Rank",
+                    "pattern": "(common|uncommon|rare|epic|legend)",
+                    "patternErrorMessage": "いずれかのランクを入力してください"
+                },
+                {
+                    "question": "表示用のアイテムのランク",
+                    "name": "ItemRank",
+                    "pattern": "((Common|Uncommon|Rare|Legend)\\+*|([A-Z]([a-z]*(\\.|\\_|\\+)*)))",
+                    "patternErrorMessage": "Common,Uncommon,Rare,Legendのいずれかを使用してください"
+                },
+                {
+                    "question": "ランクの表示色",
+                    "name": "RankColor",
+                    "pattern": "(white|black|red|blue|green|aqua|yellow|light_purple)",
+                    "patternErrorMessage": "いずれかの色を入力してください"
+                },
+                {
+                    "question": "基本になるアイテム",
+                    "name": "VanilaItem"
+                },
+            ]
+        }
+    ]
+}

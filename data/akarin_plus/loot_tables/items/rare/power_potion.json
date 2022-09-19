@@ -8,6 +8,20 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
@@ -44,8 +58,9 @@
                                         "obfuscated": false
                                     }
                                 ],
+                                "",
                                 {
-                                    "text": "\\nﾊﾟﾜｰ!!",
+                                    "text": "ﾊﾟﾜｰ!!",
                                     "color": "white",
                                     "bold": false,
                                     "italic": false,
@@ -53,8 +68,9 @@
                                     "strikethrough": false,
                                     "obfuscated": false
                                 },
+                                "",
                                 {
-                                    "text": "\\n残留化不可",
+                                    "text": "残留化不可",
                                     "color": "gray",
                                     "bold": false,
                                     "italic": false,

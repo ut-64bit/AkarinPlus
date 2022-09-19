@@ -7,6 +7,16 @@
                     "type": "minecraft:loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/common/cursed_pumpkin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/common/impure_guide"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/common/insecticidal_curse"
                 }
             ]
         }

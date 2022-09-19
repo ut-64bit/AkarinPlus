@@ -8,6 +8,20 @@
                     "name": "minecraft:wooden_sword",
                     "functions": [
                         {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [
@@ -68,7 +82,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:free_sword}}"
+                            "tag": "{AkarinPlus:{Type:free_sword},CustomModelData:12723}"
                         }
                     ]
                 }

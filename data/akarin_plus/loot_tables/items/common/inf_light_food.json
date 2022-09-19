@@ -8,6 +8,20 @@
                     "name": "minecraft:dried_kelp",
                     "functions": [
                         {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
                             "function": "minecraft:set_nbt",
                             "tag": "{AkarinPlus:{Type:inf_light_food}}"
                         },
@@ -35,8 +49,18 @@
                                         "obfuscated": false
                                     }
                                 ],
+                                "",
                                 {
-                                    "text": "\\n-1gの驚異の軽さ!\\nなのに無限!",
+                                    "text": "-1gの驚異の軽さ!",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "なのに無限!",
                                     "color": "white",
                                     "bold": false,
                                     "italic": false,

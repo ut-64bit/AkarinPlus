@@ -8,6 +8,20 @@
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [
@@ -31,17 +45,25 @@
                                         "obfuscated": false
                                     }
                                 ],
-                                [
-                                    {
-                                        "text": "\\ninsanityを再現した剣。\\n無理に再現したため装備すると体力が減ってしまう。",
-                                        "color": "white",
-                                        "bold": false,
-                                        "italic": false,
-                                        "underlined": false,
-                                        "strikethrough": false,
-                                        "obfuscated": false
-                                    }
-                                ]
+                                "",
+                                {
+                                    "text": "insanityを再現した剣。",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "無理に再現したため装備すると体力が減ってしまう。",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
                             ]
                         },
                         {

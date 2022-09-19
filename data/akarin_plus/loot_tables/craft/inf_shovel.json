@@ -22,7 +22,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{UT:{Type:inf_shovel,Grade:0}}"
+                            "tag": "{AkarinPlus:{Type:inf_shovel,Grade:0}}"
                         }
                     ]
                 }

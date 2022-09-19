@@ -1,0 +1,93 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bell",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.max_health",
+                                    "name": "10",
+                                    "amount": 1,
+                                    "operation": "addition",
+                                    "id": "98b86733-bf9d-44f9-b466-5982a44b5766",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "",
+                                    "amount": 15,
+                                    "operation": "addition",
+                                    "id": "589d8b1a-7aaf-4fe9-be71-cf526b0f4439",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:tall_bell},Enchantments:[{}],CustomModelData:12721}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Legend+",
+                                        "color": "gold",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "高い鐘",
+                                "color": "gold",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -3,6 +3,8 @@
 
 #>
 # @internal
+    #declare storage akarin_plus:
+
 #>
 # @within function akarin_plus:break/*
     #declare score_holder $unbreaking

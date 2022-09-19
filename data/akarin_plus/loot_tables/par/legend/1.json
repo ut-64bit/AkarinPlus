@@ -2,7 +2,12 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": []
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "akarin_plus:items/legend/tall_bell"
+                }
+            ]
         }
     ]
 }
