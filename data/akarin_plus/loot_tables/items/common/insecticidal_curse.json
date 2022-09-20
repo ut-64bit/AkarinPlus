@@ -44,7 +44,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:insecticidal_curse},HideFlags:1,RepairCost:65535}"
+                            "tag": "{AkarinPlus:{Type:insecticidal_curse},HideFlags:1,}"
                         },
                         {
                             "function": "minecraft:set_enchantments",

@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:golden_sword",
+                    "name": "minecraft:milk_bucket",
                     "functions": [
                         {
                             "function": "minecraft:copy_nbt",
@@ -36,45 +36,17 @@
                                         "obfuscated": false
                                     },
                                     {
-                                        "text": "Epic++",
-                                        "color": "light_purple",
+                                        "text": "Rare",
+                                        "color": "aqua",
                                         "bold": false,
                                         "italic": false,
                                         "underlined": false,
-                                        "strikethrough": false,
                                         "obfuscated": false
                                     }
                                 ],
-                                "",
+                            " ",
                                 {
-                                    "text": "聖剣エクスカリバーがあった村の",
-                                    "color": "white",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "text": "川一つ越えた先にある村で作られた模造品。",
-                                    "color": "white",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "text": "強引に研いだおかげである程度聖剣に近づいたが",
-                                    "color": "white",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "text": "研ぎ過ぎたため使い捨てになってしまった",
+                                    "text": "ガチャから出てきたミルク...飲んで大丈夫なのだろうか",
                                     "color": "white",
                                     "bold": false,
                                     "italic": false,
@@ -85,27 +57,20 @@
                             ]
                         },
                         {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:milk_epic}}"
+                        },
+                        {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "text": "エクスキャリバー",
-                                "color": "gold",
+                                "text": "ミルク",
+                                "color": "yellow",
                                 "bold": false,
                                 "italic": false,
                                 "underlined": false,
                                 "strikethrough": false,
                                 "obfuscated": false
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:excalibur},HideFlags:1,Damage:300,CustomModelData:12723}"
-                        },
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:smite": 20,
-                                "sharpness": 10
                             }
                         }
                     ]

@@ -5,14 +5,8 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wooden_sword",
+                    "name": "minecraft:player_head",
                     "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:fire_aspect": 5
-                            }
-                        },
                         {
                             "function": "minecraft:copy_nbt",
                             "source": {
@@ -26,6 +20,18 @@
                                     "op": "merge"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "0player0 Head",
+                                "color": "aqua",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -42,53 +48,34 @@
                                         "obfuscated": false
                                     },
                                     {
-                                        "text": "Common",
-                                        "color": "white",
+                                        "text": "Epic++",
+                                        "color": "light_purple",
                                         "bold": false,
                                         "italic": false,
                                         "underlined": false,
                                         "strikethrough": false,
                                         "obfuscated": false
                                     }
-                                ]
+                                ],
+                                ""
                             ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "name": {
-                                "text": "プリズン・ファイヤ",
-                                "bold": false,
-                                "italic": false,
-                                "underlined": false,
-                                "strikethrough": false,
-                                "obfuscated": false
-                            }
                         },
                         {
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "minecraft:generic.attack_damage",
-                                    "name": "Weapon modifier",
-                                    "amount": 6,
+                                    "attribute": "minecraft:generic.movement_speed",
+                                    "name": "",
+                                    "amount": 2,
                                     "operation": "addition",
-                                    "id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
-                                    "slot": "mainhand"
-                                },
-                                {
-                                    "attribute": "minecraft:generic.attack_speed",
-                                    "name": "Weapon modifier",
-                                    "amount": -2.4,
-                                    "operation": "addition",
-                                    "id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
-                                    "slot": "mainhand"
+                                    "id": "2da4e7a4-5c01-47ad-b6b2-54a617ed7853",
+                                    "slot": "head"
                                 }
                             ]
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:prison_fire},HideFlags:1,CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:0player0},SkullOwner:0player0}"
                         }
                     ]
                 }

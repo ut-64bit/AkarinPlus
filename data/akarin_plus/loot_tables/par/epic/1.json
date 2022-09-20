@@ -7,6 +7,10 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/epic/insanity/replica"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "akarin_plus:items/epic/tall_bell"
                 }
             ]
         }

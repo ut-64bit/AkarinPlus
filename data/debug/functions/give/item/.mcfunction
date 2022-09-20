@@ -50,14 +50,20 @@
 # Epic
     ## Epic
         loot give @s loot akarin_plus:items/epic/utotem
+        loot give @s loot akarin_plus:items/epic/0player0_head
+        loot give @s loot akarin_plus:items/epic/rsnlevi_head
 
     ## Epic+
+        loot give @s loot akarin_plus:items/epic/tall_bell
         loot give @s loot akarin_plus:items/epic/insanity/replica
 
     ## Epic++
         loot give @s loot akarin_plus:items/epic/insanity/origin
         loot give @s loot akarin_plus:items/epic/lunatic_replica
         loot give @s loot akarin_plus:items/epic/excalibur
+        loot give @s loot akarin_plus:items/epic/tenofill_head
+        loot give @s loot akarin_plus:items/epic/0player0_head
+        loot give @s loot akarin_plus:items/epic/rsnlevi_head
 
 # Legend
     ## Legend
@@ -65,7 +71,6 @@
         loot give @s loot akarin_plus:items/legend/ender_dragon_wing
 
     ## Legend+
-        loot give @s loot akarin_plus:items/legend/tall_bell
 
     ## Legend++
         loot give @s loot akarin_plus:items/legend/amulets/defence_amulet

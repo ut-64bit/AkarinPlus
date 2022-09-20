@@ -50,7 +50,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:CursedPumpkin},HideFlags:1,RepairCost:65535}"
+                            "tag": "{AkarinPlus:{Type:CursedPumpkin},HideFlags:1,}"
                         },
                         {
                             "function": "minecraft:set_lore",

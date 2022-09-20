@@ -44,7 +44,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:knock_hammer},HideFlags:1,RepairCost:65535,CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:knock_hammer},HideFlags:1,CustomModelData:12721}"
                         },
                         {
                             "function": "minecraft:set_enchantments",
