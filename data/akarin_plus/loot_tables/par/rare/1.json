@@ -17,6 +17,11 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/rare/potato_sword"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/life_charm"
                 }
             ]
         }

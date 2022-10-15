@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_sword",
+                    "name": "minecraft:clock",
                     "functions": [
                         {
                             "function": "minecraft:copy_nbt",
@@ -36,19 +36,36 @@
                                         "obfuscated": false
                                     },
                                     {
-                                        "text": "Epic++",
-                                        "color": "light_purple",
+                                        "text": "Legend+",
+                                        "color": "gold",
                                         "bold": false,
                                         "italic": false,
                                         "underlined": false,
-                                        "strikethrough": false,
                                         "obfuscated": false
                                     }
                                 ],
-                                "",
+                                " ",
                                 {
-                                    "text": "テスト、デバック、\"修正\"用",
-                                    "color": "dark_purple",
+                                    "text": "古代遺跡にあった懐中時計",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "その針はもう動かなくなっています",
+                                    "color": "white",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "...そしてなぜか眺めていると懐かしさを感じます",
+                                    "color": "white",
                                     "bold": false,
                                     "italic": false,
                                     "underlined": false,
@@ -58,11 +75,15 @@
                             ]
                         },
                         {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:ancient_pocket_watch}}"
+                        },
+                        {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "text": "insanity",
-                                "color": "dark_red",
+                                "text": "古代の懐中時計",
+                                "color": "gold",
                                 "bold": false,
                                 "italic": false,
                                 "underlined": false,
@@ -71,19 +92,31 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:insanity},HideFlags:1,Damage:300,RepairCost:255}"
-                        },
-                        {
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:generic.attack_damage",
                                     "name": "",
-                                    "amount": 56.4,
+                                    "amount": 40,
                                     "operation": "addition",
-                                    "id": "afa7bfab-f995-442f-97c1-6e70fb21669a",
-                                    "slot": "mainhand"
+                                    "id": "4bb15f1a-008e-420c-879f-f1abea1ec623",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "",
+                                    "amount": 20,
+                                    "operation": "addition",
+                                    "id": "d193cc72-e6b2-46cd-9f18-272033b596f4",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "name": "",
+                                    "amount": 20,
+                                    "operation": "addition",
+                                    "id": "5501f9de-1617-40d7-9c66-920ba9544063",
+                                    "slot": "offhand"
                                 }
                             ]
                         }

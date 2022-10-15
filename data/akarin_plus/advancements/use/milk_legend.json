@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{AkarinPlus:{Type:milk_legend}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:item/milk_legend"
+    }
+}

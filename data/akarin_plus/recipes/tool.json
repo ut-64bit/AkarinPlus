@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "tag": "akarin_plus:tools"
+    },
+    "addition": {
+        "item": "minecraft:emerald"
+    },
+    "result": {
+        "item": "minecraft:enchanted_book"
+    }
+}

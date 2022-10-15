@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:potion"
+    },
+    "addition": {
+        "item": "minecraft:gunpowder"
+    },
+    "result": {
+        "item": "minecraft:splash_potion"
+    }
+}

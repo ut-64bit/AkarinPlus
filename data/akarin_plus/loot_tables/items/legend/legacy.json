@@ -59,7 +59,7 @@
                                 ],
                                 "",
                                 {
-                                    "text": " ",
+                                    "text": "数々の過去があってこそ今がある",
                                     "color": "white",
                                     "bold": false,
                                     "italic": false,
@@ -100,7 +100,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:legacy},CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:legacy},CustomModelData:127251}"
                         }
                     ]
                 }

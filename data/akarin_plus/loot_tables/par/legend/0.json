@@ -10,8 +10,13 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 3,
+                    "weight": 1,
                     "name": "akarin_plus:items/legend/ender_dragon_wing"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "akarin_plus:items/legend/milk_legend"
                 }
             ]
         }

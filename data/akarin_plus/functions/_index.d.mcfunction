@@ -4,6 +4,8 @@
 #>
 # @internal
     #declare storage akarin_plus:
+    #declare tag Crafted
+    #declare tag InstantDamage
 
 #>
 # @within function akarin_plus:break/*

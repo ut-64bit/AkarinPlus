@@ -28,9 +28,9 @@ execute store result score $grade AkarinPlus.Temp run data get storage _index.d 
 scoreboard players add $grade AkarinPlus.Temp 1
 execute store result storage _index.d _.Item.AkarinPlus.Grade int 1.0 run scoreboard players get $grade AkarinPlus.Temp
 
-execute store result score $fortune AkarinPlus.Temp run data get storage _index.d _.Item.Enchantments[{id:"minecraft:fortune"}].lvl 1.0
-scoreboard players add $fortune AkarinPlus.Temp 1
-execute store result storage _index.d _.Item.Enchantments[{id:"minecraft:fortune"}].lvl short 1.0 run scoreboard players get $fortune AkarinPlus.Temp
+# execute store result score $fortune AkarinPlus.Temp run data get storage _index.d _.Item.Enchantments[{id:"minecraft:fortune"}].lvl 1.0
+# scoreboard players add $fortune AkarinPlus.Temp 1
+# execute store result storage _index.d _.Item.Enchantments[{id:"minecraft:fortune"}].lvl short 1.0 run scoreboard players get $fortune AkarinPlus.Temp
 
 data modify storage _index.d _.Item.Damage set value 0
 

@@ -14,5 +14,7 @@ execute if score @s AkarinPlus.Tenjou matches 30000.. run loot spawn ~ ~ ~ loot 
 execute if score @s AkarinPlus.Tenjou matches 30000.. run loot spawn ~ ~ ~ loot akarin_plus:par/legend/2
 execute if score @s AkarinPlus.Tenjou matches 30000.. run scoreboard players set $Global AkarinPlus.Tenjou 0
 
+execute if score $Global AkarinPlus.Tenjou matches 0 run tellraw @a [{"selector":"@s"},{"text":"が天井ガチャを引きました!"}]
+
 recipe take @s akarin_plus:craft/gatya/very_hight
 advancement revoke @s only akarin_plus:craft/gatya/very_hight

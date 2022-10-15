@@ -17,6 +17,16 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/epic/rsnlevi_head"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/milk_epic"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/vitality_charm"
                 }
             ]
         }

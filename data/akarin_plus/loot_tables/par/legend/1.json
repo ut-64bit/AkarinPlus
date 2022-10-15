@@ -5,7 +5,13 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "akarin_plus:items/legend/tall_bell"
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/ancient_pocket_watch"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/bow_is_hit"
                 }
             ]
         }

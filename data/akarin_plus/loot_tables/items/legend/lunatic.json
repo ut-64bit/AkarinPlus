@@ -100,7 +100,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:lunatic},CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:lunatic},CustomModelData:127231}"
                         }
                     ]
                 }

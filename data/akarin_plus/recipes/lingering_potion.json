@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:splash_potion"
+    },
+    "addition": {
+        "item": "minecraft:dragon_breath"
+    },
+    "result": {
+        "item": "minecraft:lingering_potion"
+    }
+}

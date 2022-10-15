@@ -44,7 +44,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:knock_hammer},HideFlags:1,CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:knock_hammer},HideFlags:1,CustomModelData:127201}"
                         },
                         {
                             "function": "minecraft:set_enchantments",

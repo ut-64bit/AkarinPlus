@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wooden_sword",
+                    "name": "minecraft:paper",
                     "functions": [
                         {
                             "function": "minecraft:copy_nbt",
@@ -36,53 +36,46 @@
                                         "obfuscated": false
                                     },
                                     {
-                                        "text": "Common",
-                                        "color": "white",
+                                        "text": "Rare+",
+                                        "color": "aqua",
                                         "bold": false,
                                         "italic": false,
                                         "underlined": false,
-                                        "strikethrough": false,
                                         "obfuscated": false
                                     }
-                                ]
+                                ],
+                                ""
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.max_health",
+                                    "name": "",
+                                    "amount": 2,
+                                    "operation": "addition",
+                                    "id": "fb7b81bd-f93e-4967-bed9-3f5a2af35843",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:life_charm},Enchantments:[{}]}"
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "text": "ただの剣",
+                                "text": "命のチャーム",
+                                "color": "aqua",
                                 "bold": false,
                                 "italic": false,
                                 "underlined": false,
                                 "strikethrough": false,
                                 "obfuscated": false
                             }
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.attack_damage",
-                                    "name": "",
-                                    "amount": -1,
-                                    "operation": "multiply_total",
-                                    "id": "7bb28379-a0ec-48f3-9274-fa2a237a6e87",
-                                    "slot": "mainhand"
-                                },
-                                {
-                                    "attribute": "minecraft:generic.attack_speed",
-                                    "name": "",
-                                    "amount": 100000,
-                                    "operation": "addition",
-                                    "id": "4596c232-7d24-4216-86db-01c223414fb6",
-                                    "slot": "mainhand"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:free_sword},CustomModelData:127203}"
                         }
                     ]
                 }

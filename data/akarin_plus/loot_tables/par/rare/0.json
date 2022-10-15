@@ -22,6 +22,11 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/rare/deffence_charm"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/milk_rare"
                 }
             ]
         }

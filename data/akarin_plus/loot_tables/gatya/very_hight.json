@@ -37,16 +37,6 @@
                     "type": "loot_table",
                     "weight": 128,
                     "name": "akarin_plus:par/rare/2"
-                },
-                {
-                    "type": "loot_table",
-                    "weight": 256,
-                    "name": "akarin_plus:par/rare/1"
-                },
-                {
-                    "type": "loot_table",
-                    "weight": 896,
-                    "name": "akarin_plus:par/rare/0"
                 }
             ]
         }

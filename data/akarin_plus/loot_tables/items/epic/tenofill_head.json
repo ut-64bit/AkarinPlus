@@ -63,6 +63,12 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{AkarinPlus:{Type:TenoFill},SkullOwner:TenoFill}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:protection": 1
+                            }
                         }
                     ]
                 }
