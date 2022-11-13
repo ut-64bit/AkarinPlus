@@ -62,7 +62,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:potato_sword},CustomModelData:127202}"
+                            "tag": "{AkarinPlus:{Type:potato_sword},CustomModelData:1270202}"
                         }
                     ]
                 }

@@ -5,13 +5,23 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "weight": 5,
+                    "weight": 2,
+                    "name": "akarin_plus:items/epic/magnet_ring"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
                     "name": "akarin_plus:items/epic/utotem"
                 },
                 {
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/epic/0player0_head"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/tenofill_head"
                 },
                 {
                     "type": "loot_table",
@@ -26,7 +36,37 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
+                    "name": "akarin_plus:items/epic/risu_youtube_head"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/empty_helmet"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/empty_chestplate"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/empty_leggings"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/empty_boots"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
                     "name": "akarin_plus:items/epic/vitality_charm"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/spawn_egg"
                 }
             ]
         }

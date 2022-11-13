@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "akarin_plus:"
+              },
+              "ops": [
+                {
+                  "source": "_.Version",
+                  "target": "AkarinPlus.ItemVer",
+                  "op": "merge"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "採掘の証",
+                "color": "light_purple",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Rank: ",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "Epic+",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                ""
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AkarinPlus:{Type:proof_of_mining}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

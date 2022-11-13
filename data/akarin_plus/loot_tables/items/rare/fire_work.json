@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Fireworks:{Flight:32b,Explosions:[{Type:0,Trail:1b,Colors:[I;16711680]},{Type:0,Trail:1b,Colors:[I;16740096]},{Type:0,Trail:1b,Colors:[I;16763904]},{Type:0,Trail:1b,Colors:[I;16776960]},{Type:0,Trail:1b,Colors:[I;8978176]},{Type:0,Trail:1b,Colors:[I;655104]},{Type:0,Trail:1b,Colors:[I;65467]},{Type:0,Trail:1b,Colors:[I;58879]},{Type:0,Trail:1b,Colors:[I;35071]},{Type:0,Trail:1b,Colors:[I;8959]},{Type:0,Trail:1b,Colors:[I;4980991]},{Type:0,Trail:1b,Colors:[I;12779775]},{Type:0,Trail:1b,Colors:[I;16711884]},{Type:0,Trail:1b,Colors:[I;16711680]}]}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "きれいな花火",
+                  "color": "aqua"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

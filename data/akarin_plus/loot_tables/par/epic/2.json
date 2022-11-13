@@ -17,6 +17,16 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/epic/excalibur"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/goddess_charm"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/epic/modified_bread_epic_plus"
                 }
             ]
         }

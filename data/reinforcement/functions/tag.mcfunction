@@ -1,0 +1,2 @@
+execute unless entity @e[tag=base,distance=..1.5] run tag @s add base
+execute unless entity @s[tag=base] unless entity @e[tag=add,distance=..1.5] if entity @e[tag=base,distance=..1.5] run tag @s add add

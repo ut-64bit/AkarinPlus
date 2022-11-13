@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "akarin_plus:"
+              },
+              "ops": [
+                {
+                  "source": "_.Version",
+                  "target": "AkarinPlus.ItemVer",
+                  "op": "merge"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "risu_youtube Head",
+                "color": "aqua",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Rank: ",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "Epic++",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                ""
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 20,
+                  "operation": "addition",
+                  "id": "c2cf0b46-a67c-455b-b584-b5508f66a295",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 5,
+                  "operation": "addition",
+                  "id": "ae3d2031-17d2-4dc6-8eba-3964479f98a5",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AkarinPlus:{Type:risu_youtube},SkullOwner:risu_youtube}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

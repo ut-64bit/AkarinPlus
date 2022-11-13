@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "akarin_plus:"
+              },
+              "ops": [
+                {
+                  "source": "_.Version",
+                  "target": "AkarinPlus.ItemVer",
+                  "op": "merge"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "「「無」」装甲",
+                "color": "light_gray",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Rank: ",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                "",
+                {
+                  "text": "無装甲ですが装甲として機能しています",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "見えませんが、おそらく2.5mmほどの装甲でしょう",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 25,
+                  "operation": "addition",
+                  "id": "9e75b047-9c74-45c8-ad21-38cf3b214955",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "",
+                  "amount": 10,
+                  "operation": "addition",
+                  "id": "ee8729aa-72ed-4694-a58b-8a4ad0c82fd9",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "",
+                  "amount": 15,
+                  "operation": "addition",
+                  "id": "b4be2bb5-a103-482a-9a1c-0121649ffcb4",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AkarinPlus:{Type:empty_chestplate}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

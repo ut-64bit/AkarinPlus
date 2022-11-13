@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:xp_ticket},CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:xp_ticket},CustomModelData:127021,HideFlags:1}"
                         },
                         {
                             "function": "minecraft:set_name",

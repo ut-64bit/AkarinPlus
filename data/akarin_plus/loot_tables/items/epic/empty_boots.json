@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "akarin_plus:"
+              },
+              "ops": [
+                {
+                  "source": "_.Version",
+                  "target": "AkarinPlus.ItemVer",
+                  "op": "merge"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "「「無」」装甲・ブーツ",
+                "color": "light_gray",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Rank: ",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "Epic",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                "",
+                {
+                  "text": "無を素材に使うことで軽量化が図られましたが、",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "重軽量化どころか重量をなくすことに",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "成功しました。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 15,
+                  "operation": "addition",
+                  "id": "0ef064db-2d5d-484d-afac-f09927369437",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "",
+                  "amount": 5,
+                  "operation": "addition",
+                  "id": "49fa7c50-6ffe-4b1d-83ed-a3e2c3dbc5ab",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "",
+                  "amount": 10,
+                  "operation": "addition",
+                  "id": "76bf8a2e-cf0d-4347-a3e2-8244570b7250",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "",
+                  "amount": 0.01,
+                  "operation": "addition",
+                  "id": "2bb5cd22-aba6-44a3-b87e-9034d338b629",
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AkarinPlus:{Type:empty_boots}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

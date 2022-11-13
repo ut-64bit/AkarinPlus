@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:hyper_heel_sheet},CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:hyper_heel_sheet},CustomModelData:127021}"
                         },
                         {
                             "function": "minecraft:set_name",

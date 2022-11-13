@@ -6,7 +6,27 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
+                    "name": "akarin_plus:items/legend/legend_gatya"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
                     "name": "akarin_plus:items/legend/ancient_pocket_watch"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/rfi_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/pseudo_awakening_potion_attack"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/pseudo_awakening_potion_defense"
                 },
                 {
                     "type": "minecraft:loot_table",

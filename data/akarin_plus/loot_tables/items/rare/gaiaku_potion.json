@@ -25,7 +25,7 @@
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "text": "究極害悪ポーション",
+                                "text": "害悪ポーション",
                                 "color": "dark_red",
                                 "bold": false,
                                 "italic": false,
@@ -53,7 +53,7 @@
                                         "obfuscated": false
                                     },
                                     {
-                                        "text": "Rare+",
+                                        "text": "Rare++",
                                         "color": "aqua",
                                         "bold": false,
                                         "italic": false,

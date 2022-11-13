@@ -8,20 +8,6 @@
                     "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
-                            "function": "minecraft:copy_nbt",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "akarin_plus:"
-                            },
-                            "ops": [
-                                {
-                                    "source": "_.Version",
-                                    "target": "AkarinPlus.ItemVer",
-                                    "op": "merge"
-                                }
-                            ]
-                        },
-                        {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [
@@ -61,7 +47,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:empty},CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:empty},CustomModelData:127021}"
                         }
                     ]
                 }

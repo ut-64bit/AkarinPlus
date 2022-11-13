@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:ender_dragon_wing},Unbreaking:1b,CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:ender_dragon_wing},Unbreaking:1b,CustomModelData:127021}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -31,7 +31,7 @@
                                 {
                                     "attribute": "minecraft:generic.armor_toughness",
                                     "name": "",
-                                    "amount": 10,
+                                    "amount": 20,
                                     "operation": "addition",
                                     "id": "697893a7-b124-4e66-9b47-957f011336e3",
                                     "slot": "chest"

@@ -12,6 +12,16 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/rare/hyper_heel_sheet"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/gaiaku_potion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/nutrition_helmet"
                 }
             ]
         }

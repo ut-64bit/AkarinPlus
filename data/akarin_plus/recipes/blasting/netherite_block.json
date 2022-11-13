@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "minecraft:reinforced_deepslate"
-    },
-    "result": "minecraft:netherite_block",
-    "experience": 0,
-    "cookingtime": 1200
-}

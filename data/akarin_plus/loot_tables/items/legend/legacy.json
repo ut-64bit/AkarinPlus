@@ -100,7 +100,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:legacy},CustomModelData:127251}"
+                            "tag": "{AkarinPlus:{Type:legacy},CustomModelData:1270251}"
                         }
                     ]
                 }

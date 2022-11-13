@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{AkarinPlus:{Type:yuki_ball}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:item/yuki_ball",
+        "loot": [
+            "akarin_plus:items/uncommon/yuki_ball"
+        ]
+    }
+}

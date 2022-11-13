@@ -10,3 +10,9 @@ tellraw @s ""
 tellraw @s [{"text": "                               Created by UT_64bit"}]
 tellraw @s ""
 tellraw @s "------------------------------------------"
+
+    tellraw @s [{"translate":"%1$s : %2$s <= %3$s","with":[{"text":"UPDATA","color":"aqua"},{"text":"MainVer","color":"green"},{"nbt":"_.Version.MainVer","storage":"akarin_plus:","interpret":false}],"color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+        tellraw @s [{"translate":"%1$s : %2$s <= %3$s","with":[{"text":"UPDATA","color":"aqua"},{"text":"SubVer","color":"green"},{"nbt":"_.Version.SubVer","storage":"akarin_plus:","interpret":false}],"color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+        
+scoreboard players set @s AkarinPlus.CoolTime 0
+advancement revoke @s only akarin_plus:handler/entity_hurt_player

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:craft",
+        "loot": [
+            "akarin_plus:gatya/rank/epic"
+        ]
+    }
+}

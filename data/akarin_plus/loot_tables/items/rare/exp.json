@@ -1,0 +1,116 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "akarin_plus:"
+                            },
+                            "ops": [
+                                {
+                                    "source": "_.Version",
+                                    "target": "AkarinPlus.ItemVer",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Rank: ",
+                                        "color": "white",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "strikethrough": false,
+                                        "obfuscated": false
+                                    },
+                                    {
+                                        "text": "Rare++",
+                                        "color": "aqua",
+                                        "bold": false,
+                                        "italic": false,
+                                        "underlined": false,
+                                        "obfuscated": false
+                                    }
+                                ],
+                                ""
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AkarinPlus:{Type:xp_ticket},CustomModelData:127021,HideFlags:1}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "XPチケット",
+                                "color": "aqua",
+                                "bold": false,
+                                "italic": false,
+                                "underlined": false,
+                                "strikethrough": false,
+                                "obfuscated": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:aqua_affinity": 32767,
+                                "minecraft:bane_of_arthropods": 32767,
+                                "minecraft:binding_curse": 32767,
+                                "minecraft:blast_protection": 32767,
+                                "minecraft:channeling": 32767,
+                                "minecraft:depth_strider": 32767,
+                                "minecraft:efficiency": 32767,
+                                "minecraft:feather_falling": 32767,
+                                "minecraft:fire_aspect": 32767,
+                                "minecraft:fire_protection": 32767,
+                                "minecraft:flame": 32767,
+                                "minecraft:fortune": 32767,
+                                "minecraft:frost_walker": 32767,
+                                "minecraft:impaling": 32767,
+                                "minecraft:infinity": 32767,
+                                "minecraft:knockback": 32767,
+                                "minecraft:looting": 32767,
+                                "minecraft:loyalty": 32767,
+                                "minecraft:luck_of_the_sea": 32767,
+                                "minecraft:lure": 32767,
+                                "minecraft:mending": 32767,
+                                "minecraft:multishot": 32767,
+                                "minecraft:piercing": 32767,
+                                "minecraft:power": 32767,
+                                "minecraft:projectile_protection": 32767,
+                                "minecraft:punch": 32767,
+                                "minecraft:protection": 32767,
+                                "minecraft:quick_charge": 32767,
+                                "minecraft:respiration": 32767,
+                                "minecraft:riptide": 32767,
+                                "minecraft:sharpness": 32767,
+                                "minecraft:silk_touch": 32767,
+                                "minecraft:smite": 32767,
+                                "minecraft:soul_speed": 32767,
+                                "minecraft:sweeping": 32767,
+                                "minecraft:swift_sneak": 32767,
+                                "minecraft:thorns": 32767,
+                                "minecraft:unbreaking": 32767,
+                                "minecraft:vanishing_curse": 32767
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

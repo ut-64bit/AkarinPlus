@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "chest": {
+                "nbt": "{AkarinPlus:{Type:empty_chestplate}}"
+            },
+            "head": {
+                "nbt": "{AkarinPlus:{Type:empty_helmet}}"
+            },
+            "legs": {
+                "nbt": "{AkarinPlus:{Type:empty_leggings}}"
+            },
+            "feet": {
+                "nbt": "{AkarinPlus:{Type:empty_boots}}"
+            }
+        }
+    }
+}

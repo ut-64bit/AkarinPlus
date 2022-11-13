@@ -88,7 +88,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:prison_fire},HideFlags:1,CustomModelData:127201}"
+                            "tag": "{AkarinPlus:{Type:prison_fire},HideFlags:1,CustomModelData:1270201}"
                         }
                     ]
                 }

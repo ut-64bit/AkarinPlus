@@ -44,7 +44,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:tall_bell},Enchantments:[{}],CustomModelData:12721}"
+                            "tag": "{AkarinPlus:{Type:tall_bell},Enchantments:[{}],CustomModelData:127021}"
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -62,7 +62,7 @@
                                     },
                                     {
                                         "text": "Epic+",
-                                        "color": "gold",
+                                        "color": "light_purple",
                                         "bold": false,
                                         "italic": false,
                                         "underlined": false,

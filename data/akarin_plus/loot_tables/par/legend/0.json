@@ -5,18 +5,28 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 5,
-                    "name": "akarin_plus:items/legend/legend_gatya"
-                },
-                {
-                    "type": "minecraft:loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/legend/ender_dragon_wing"
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "akarin_plus:items/legend/unfree_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "akarin_plus:items/legend/expensive_stone"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "weight": 3,
                     "name": "akarin_plus:items/legend/milk_legend"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "akarin_plus:items/legend/egg"
                 }
             ]
         }

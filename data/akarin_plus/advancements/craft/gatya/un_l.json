@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "akarin_plus:craft/gatya/un_l"
+            }
+        }
+    },
+    "rewards": {
+        "function": "akarin_plus:craft/gatya/un_l",
+        "loot": [
+            "akarin_plus:gatya/un_l"
+        ]
+    }
+}

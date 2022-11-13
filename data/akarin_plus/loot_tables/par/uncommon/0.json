@@ -11,7 +11,22 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
+                    "name": "akarin_plus:items/uncommon/rfi_ingot"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
                     "name": "akarin_plus:items/uncommon/potion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/uncommon/suica"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/uncommon/yuki_ball"
                 }
             ]
         }

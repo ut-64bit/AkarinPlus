@@ -99,7 +99,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:excalibur},HideFlags:1,Damage:300,CustomModelData:127233}"
+                            "tag": "{AkarinPlus:{Type:excalibur},HideFlags:1,Damage:300,CustomModelData:1270232}"
                         },
                         {
                             "function": "minecraft:set_enchantments",

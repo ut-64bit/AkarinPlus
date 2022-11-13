@@ -6,7 +6,12 @@
                 {
                     "type": "loot_table",
                     "weight": 1,
-                    "name": "akarin_plus:items/rare/gaiaku_potion"
+                    "name": "akarin_plus:items/rare/heel_potion"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/barrier_potion"
                 },
                 {
                     "type": "loot_table",
@@ -22,6 +27,31 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/rare/life_charm"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/ut_helmet_rare"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/ut_chestplate_rare"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/ut_leggings_rare"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/ut_boots_rare"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/rare/kirito_sword"
                 }
             ]
         }

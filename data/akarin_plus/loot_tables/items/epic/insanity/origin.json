@@ -75,17 +75,10 @@
                             "tag": "{AkarinPlus:{Type:insanity},HideFlags:1,Damage:300,RepairCost:255}"
                         },
                         {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.attack_damage",
-                                    "name": "",
-                                    "amount": 56.4,
-                                    "operation": "addition",
-                                    "id": "afa7bfab-f995-442f-97c1-6e70fb21669a",
-                                    "slot": "mainhand"
-                                }
-                            ]
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": 100
+                            }
                         }
                     ]
                 }

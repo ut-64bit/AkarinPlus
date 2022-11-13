@@ -82,7 +82,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AkarinPlus:{Type:free_sword},CustomModelData:127203}"
+                            "tag": "{AkarinPlus:{Type:free_sword},CustomModelData:1270203}"
                         }
                     ]
                 }

@@ -1,0 +1,1 @@
+effect give @s weakness 1 255 true

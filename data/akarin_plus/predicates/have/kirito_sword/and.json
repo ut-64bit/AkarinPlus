@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "nbt": "{AkarinPlus:{Type:kirito_sword}}"
+            },
+            "offhand": {
+                "nbt": "{AkarinPlus:{Type:kirito_sword}}"
+            }
+        }
+    }
+}

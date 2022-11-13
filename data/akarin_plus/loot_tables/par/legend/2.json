@@ -17,6 +17,16 @@
                     "type": "loot_table",
                     "weight": 1,
                     "name": "akarin_plus:items/legend/legacy"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/best_item"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "akarin_plus:items/legend/hyperion"
                 }
             ]
         }
