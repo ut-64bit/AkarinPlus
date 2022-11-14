@@ -8,8 +8,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:player",
-                            "nbt": "{Tags:[\"AntiPK\"]}"
+                            "nbt": "{Tags:[\"AkarinPlus.Have.AntiPK\"]}"
                         }
                     }
                 ]

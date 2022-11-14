@@ -5,7 +5,7 @@
         }
     },
     "rewards": {
-        "function": "akarin_plus:craft",
+        "function": "akarin_plus:craft/gatya/rank/epic",
         "loot": [
             "akarin_plus:gatya/rank/epic"
         ]

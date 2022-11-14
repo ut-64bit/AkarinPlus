@@ -1,4 +1,4 @@
-#> akarin_plus:item/milk_legend
-# @within advancement akarin_plus:use/milk_legend
+#> akarin_plus:reinforcement/defense
+# @within function akarin_plus:tick/player/main
 
 scoreboard players add @s STA.Armor 3

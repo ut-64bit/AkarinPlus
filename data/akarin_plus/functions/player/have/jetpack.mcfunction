@@ -1,3 +1,6 @@
+#> akarin_plus:player/have/jetpack
+# @within function akarin_plus:tick/player/main
+
 effect give @s levitation 1 9 false
 effect give @s resistance 1 3 false
 particle flame ~ ~ ~ 0 0 0 1 2 force

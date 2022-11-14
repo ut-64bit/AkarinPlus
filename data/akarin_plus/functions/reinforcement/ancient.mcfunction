@@ -1,5 +1,5 @@
-#> akarin_plus:item/milk_legend
-# @within advancement akarin_plus:use/milk_legend
+#> akarin_plus:reinforcement/ancient
+# @within function akarin_plus:tick/player/main
 
 scoreboard players add @s STA.Health 20
 scoreboard players add @s STA.AttackDamage 30

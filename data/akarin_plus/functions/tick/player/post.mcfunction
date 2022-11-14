@@ -15,4 +15,4 @@ execute unless score @s STA.Armor = $temp STA.Armor run function score_to_attrib
 # tag
     tag @s remove this
     tag @s remove Crafted
-    tag @s remove InstantDamage
+    tag @s remove Effect.InstantDamage

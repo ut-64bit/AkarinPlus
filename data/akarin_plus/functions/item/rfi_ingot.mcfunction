@@ -1,4 +1,4 @@
-#> akarin_plus:item/labyrinth_bread
+#> akarin_plus:item/rfi_ingot
 # @private
 
 effect give @s poison 1 1 false

@@ -1,4 +1,4 @@
-#> akarin_plus:item/milk_legend
-# @within advancement akarin_plus:use/milk_legend
+#> akarin_plus:reinforcement/expensive
+# @within function akarin_plus:tick/player/main
 
 scoreboard players add @s STA.AttackDamage 50

@@ -1,5 +1,5 @@
 #> akarin_plus:item/labyrinth_bread
-# @private
+# @within advancement akarin_plus:use/labyrinth_bread
 
 effect give @s resistance 300 2
 effect give @s speed 300 0

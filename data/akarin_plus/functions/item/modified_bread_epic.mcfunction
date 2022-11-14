@@ -1,4 +1,4 @@
-#> akarin_plus:item/labyrinth_bread
+#> akarin_plus:item/modified_bread_epic
 # @private
 
 attribute @s minecraft:generic.attack_damage modifier add 0e5b47a9-d52a-92c9-9a16-e7265fb833f2 "" -1 add

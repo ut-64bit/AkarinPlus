@@ -1,3 +1,6 @@
+#> akarin_plus:player/tick/combo_actionbar
+# @within function akarin_plus:tick/player/pre
+
 execute if score @s AkarinPlus.ComboTick matches 54..59 run title @s actionbar [{"text":"||||||||||","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"name":"@s","objective":"AkarinPlus.Combo"}},{"text":"||||||||||"}]
 execute if score @s AkarinPlus.ComboTick matches 48..53 run title @s actionbar [{"text":"|||||||||","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"name":"@s","objective":"AkarinPlus.Combo"}},{"text":"|||||||||"}]
 execute if score @s AkarinPlus.ComboTick matches 42..47 run title @s actionbar [{"text":"||||||||","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"name":"@s","objective":"AkarinPlus.Combo"}},{"text":"||||||||"}]
